@@ -80,7 +80,5 @@ syntax keyword sysC_Type sc_biguint sc_bigint sc_uint sc_int sc_logic sc_bit sc_
 
 " And the highlighting
 hi! sysC_Func ctermfg=NONE guifg=darkcyan
-hi! link sysC_Macro Constant
+hi! sysC_Macro ctermfg=LightYellow
 hi! link sysC_Type Type
-
-echohl Comment | echo "Detected SystemC file" | echohl None
